@@ -246,23 +246,5 @@
         });
 
         timer = setTimeout(start, 2000);
-
-         /*var oWidth = parseInt($('.logo').outerWidth())+parseInt($('.logo').css('margin-left'))+parseInt($('.logo').css('margin-right'));
-
-    var oHeight = $('.logo').outerHeight();
-    var total = $('.logo').length;
-    var elemsPerSlide = 1;
-    var numElemToMove = 1;
-    var displElem = oWidth;
-    
-    $('#container').css({'width':oWidth*elemsPerSlide,height:oHeight});
-
-    var cont = 0;
-    $('#container .logo').each(function(){
-        x = cont++*oWidth;
-        y = 0;
-        $(this).css({translate:[x,y]});
-    });*/
-    
     }
 })( window, jQuery );
